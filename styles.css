@@ -1,0 +1,36 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-left: 0.5%;
+    
+}
+h1{
+    color: #ffffff;
+    font-size:xx-large;
+    text-align: left;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Images/Tic_tac_toe.avif);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ffffff;
+}
